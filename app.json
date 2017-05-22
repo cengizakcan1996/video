@@ -5,11 +5,6 @@
   "scripts": {
     "start": "node server.js"
   },
-  "formation": {
-  },
-  "addons": [
-
-  ],
   "buildpacks": [
     {
       "url": "https://github.com/cengizakcan1996/video"
