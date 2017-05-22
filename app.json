@@ -1,9 +1,17 @@
 {
   "name": "video",
   "description": "",
+  "main": "stream_server.js",
   "scripts": {
-    "postdeploy": "node server"
+    "start": "node server.js"
   },
+  "dependencies": {
+    "ejs"    : "0.8.x",
+    "sequent": ">= 0.1.2"
+  },
+  "engines": {
+    "node": ">= 0.12.0"
+  }
   "env": {
   },
   "formation": {
