@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "stream_server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "server.js"
   },
   "dependencies": {
     "ejs"    : "0.8.x",
