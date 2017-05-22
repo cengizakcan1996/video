@@ -1,0 +1,19 @@
+{
+  "name": "video",
+  "description": "",
+  "scripts": {
+    "postdeploy": "node server"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/cengizakcan1996/video"
+    }
+  ]
+}
